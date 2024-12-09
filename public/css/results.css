@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+    background-color: #f4f4f4; /* Gris claro */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Gris oscuro */
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff; /* Blanco */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+/* Encabezados */
+h2 {
+    font-size: 1.8rem;
+    color: #4a4a4a;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Tabla de resultados */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th {
+    background-color: #666;
+    color: white;
+}
+
+table thead {
+    background-color: #e0e0e0; /* Gris claro */
+    color: #4e4e4e; /* Gris oscuro */
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc; /* Borde gris */
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fila gris muy claro */
+}
+
+/* Botones */
+.btn {
+    background-color: #6c757d; /* Gris rústico */
+    color: #ffffff; /* Blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #495057; /* Gris más oscuro para hover */
+}
+
+/* Espaciado y márgenes */
+.mt-4 {
+    margin-top: 40px;
+}
+

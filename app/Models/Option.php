@@ -11,11 +11,12 @@ class Option extends Model
 
     // Definir los campos que son asignables masivamente
     protected $fillable = [
-        'survey_id',    // ID de la encuesta a la que pertenece esta opción
-        'text',         // El texto de la opción (por ejemplo, la respuesta)
+        'text',         // Texto de la opción
+        'survey_id',    // ID de la encuesta relacionada
+        'votes',        // Número de votos
     ];
 
-    // Relación inversa con Survey (Una opción pertenece a una encuesta)
+    // Relación inversa con la encuesta
     public function survey()
     {
         return $this->belongsTo(Survey::class);
